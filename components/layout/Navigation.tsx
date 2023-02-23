@@ -9,13 +9,13 @@ export default function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href={'/posts'}>Login</Link>
+            <Link href={'/login'}>Login</Link>
           </li>
           <li>
-            <Link href={'/contact'}>Profile</Link>
+            <Link href={'/profile'}>Profile</Link>
           </li>
           <li>
-            <Link href={'/contact'}>Logout</Link>
+            <Link href={'/logout'}>Logout</Link>
           </li>
         </ul>
       </nav>
